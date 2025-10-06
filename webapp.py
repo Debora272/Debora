@@ -33,7 +33,7 @@ st.markdown("""
 # =====================================================
 # CABEÇALHO
 # =====================================================
-st.title("📊 Distribuição do FUNDEB")
+st.title("📊 Distribuição dos recursos do FUNDEB")
 st.markdown("<p class='big-font'>Por: Débora</p>", unsafe_allow_html=True)
 st.markdown("---")
 
@@ -44,7 +44,7 @@ st.header("🎯 Objetivo do App")
 st.info("""
 O presente aplicativo tem como objetivo **consultar e visualizar** informações sobre a distribuição do **FUNDEB** no Brasil.  
 
-O **FUNDEB** é o principal fundo de financiamento da educação básica, e o **MEC** publica portarias trimestrais que detalham:
+O **FUNDEB** é o principal fonte de financiamento da educação básica, e o **MEC** publica portarias trimestrais que detalham:
 - Recursos recebidos por estado;
 - Complementações da União;
 - Matrículas por município;
