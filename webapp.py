@@ -154,7 +154,7 @@ st.header("✅ Conclusão")
 st.success("""
 Este app é um **protótipo inicial** que já mostra:
 - Layout moderno e interativo;
-- Seleção dinâmica de município e ano;
+- Seleção dinâmica de município/estado e ano;
 - Indicadores em destaque (cards);
 - Gráfico interativo com Plotly mostrando todos os anos.
 
