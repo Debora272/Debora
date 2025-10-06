@@ -56,6 +56,7 @@ Este app é um **protótipo interativo** para simular como essas informações p
 st.markdown("---")
 
 dados = {
+    "ANO": ["2022", "2022", "2022", "2022"],
     "Estado": ["ES", "MG", "BA", "SP"],
     "Matrículas ponderadas": [82000, 145000, 132000, 210000],
     "Complementação VAAF(R$ mi)": [2000, 45000, 13000, 2100],
