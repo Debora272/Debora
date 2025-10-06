@@ -55,6 +55,16 @@ Este app é um **protótipo interativo** para simular como essas informações p
 
 st.markdown("---")
 
+dados = {
+    "Estado": ["ES", "MG", "BA", "SP"],
+    "Matrículas": [82000, 145000, 132000, 210000],
+    "Valor FUNDEB (R$ mi)": [3200, 5100, 4600, 7200]
+}
+
+df = pd.DataFrame(dados)
+
+st.subheader("📊 Distribuição de Recursos (Exemplo)")
+st.dataframe(df)
 # =====================================================
 # DEMONSTRAÇÃO COM DADOS FUNCIONAIS
 # =====================================================
