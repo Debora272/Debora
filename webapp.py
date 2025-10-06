@@ -57,8 +57,10 @@ st.markdown("---")
 
 dados = {
     "Estado": ["ES", "MG", "BA", "SP"],
-    "Matrículas": [82000, 145000, 132000, 210000],
-    "Valor FUNDEB (R$ mi)": [3200, 5100, 4600, 7200]
+    "Matrículas ponderadas": [82000, 145000, 132000, 210000],
+    "Complementação VAAF(R$ mi)": [2000, 45000, 13000, 2100],
+    "Complementação VAAR(R$ mi)": [0, 5000, 12000, 360000],
+    "Valor FUNDEB (R$ mi)": [84000, 195000, 157000, 7200]
 }
 
 df = pd.DataFrame(dados)
