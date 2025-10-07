@@ -6,7 +6,7 @@ import plotly.express as px
 # CONFIGURAÇÃO DO APP
 # =====================================================
 st.set_page_config(
-    page_title="Distribuição do FUNDEB",
+    page_title="Distribuição dos recursos do FUNDEB",
     page_icon="📊",
     layout="wide"
 )
@@ -34,7 +34,7 @@ st.markdown("""
 # CABEÇALHO
 # =====================================================
 st.title("📊 Distribuição dos recursos do FUNDEB")
-st.markdown("<p class='big-font'>Por: Débora</p>", unsafe_allow_html=True)
+st.markdown("<p class='big-font'>Por: Débora Resende Maranhão</p>", unsafe_allow_html=True)
 st.markdown("---")
 
 # =====================================================
@@ -45,9 +45,9 @@ st.info("""
 O presente aplicativo tem como objetivo **consultar e visualizar** informações sobre a distribuição do **FUNDEB** no Brasil.  
 
 O **FUNDEB** é o principal fonte de financiamento da educação básica, e o **MEC** publica portarias trimestrais que detalham:
-- Recursos recebidos por estado;
-- Complementações da União;
-- Matrículas por município;
+- Recursos recebidos por estado/município/rede de ensino;
+- Complementações da União(VAAF, VAAT e VAAR);
+- Matrículas ponderadas por município;
 - Distribuição consolidada final.  
 
 Este app é um **protótipo interativo** para simular como essas informações podem ser apresentadas de forma visual e acessível.
