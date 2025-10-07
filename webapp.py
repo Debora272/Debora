@@ -125,18 +125,18 @@ st.info("⚠️ Obs: Estes valores são **simulações fictícias**. Futuramente
 st.header("📈 Visualização dos Dados (Fictícios)")
 
 df_demo = pd.DataFrame([
-    {"Município": "Fortaleza", "Ano": 2022, "Matrículas": 340000, "Valor": 235000000},
-    {"Município": "Fortaleza", "Ano": 2023, "Matrículas": 350000, "Valor": 245000000},
-    {"Município": "Fortaleza", "Ano": 2024, "Matrículas": 360000, "Valor": 255000000},
-    {"Município": "São Paulo", "Ano": 2022, "Matrículas": 1150000, "Valor": 940000000},
-    {"Município": "São Paulo", "Ano": 2023, "Matrículas": 1200000, "Valor": 980000000},
-    {"Município": "São Paulo", "Ano": 2024, "Matrículas": 1250000, "Valor": 1020000000},
-    {"Município": "Salvador", "Ano": 2022, "Matrículas": 400000, "Valor": 280000000},
-    {"Município": "Salvador", "Ano": 2023, "Matrículas": 420000, "Valor": 295000000},
-    {"Município": "Salvador", "Ano": 2024, "Matrículas": 440000, "Valor": 310000000},
-    {"Município": "Belo Horizonte", "Ano": 2022, "Matrículas": 300000, "Valor": 200000000},
-    {"Município": "Belo Horizonte", "Ano": 2023, "Matrículas": 310000, "Valor": 210000000},
-    {"Município": "Belo Horizonte", "Ano": 2024, "Matrículas": 320000, "Valor": 220000000},
+    {"Município": "Fortaleza", "Ano": 2022, "Matrículas": 340000, "Valor": 23500000},
+    {"Município": "Fortaleza", "Ano": 2023, "Matrículas": 350000, "Valor": 24500000},
+    {"Município": "Fortaleza", "Ano": 2024, "Matrículas": 360000, "Valor": 25500000},
+    {"Município": "São Paulo", "Ano": 2022, "Matrículas": 1150000, "Valor": 94000000},
+    {"Município": "São Paulo", "Ano": 2023, "Matrículas": 1200000, "Valor": 98000000},
+    {"Município": "São Paulo", "Ano": 2024, "Matrículas": 1250000, "Valor": 102000000},
+    {"Município": "Salvador", "Ano": 2022, "Matrículas": 400000, "Valor": 28000000},
+    {"Município": "Salvador", "Ano": 2023, "Matrículas": 420000, "Valor": 29500000},
+    {"Município": "Salvador", "Ano": 2024, "Matrículas": 440000, "Valor": 31000000},
+    {"Município": "Belo Horizonte", "Ano": 2022, "Matrículas": 300000, "Valor": 20000000},
+    {"Município": "Belo Horizonte", "Ano": 2023, "Matrículas": 310000, "Valor": 21000000},
+    {"Município": "Belo Horizonte", "Ano": 2024, "Matrículas": 320000, "Valor": 22000000},
 ])
 
 fig = px.bar(df_demo, x="Município", y="Valor", color="Ano", barmode="group",
